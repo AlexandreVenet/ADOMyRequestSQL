@@ -84,11 +84,11 @@ namespace ADOMyRequestSQL.Helper
 		}
 
 		/// <summary>
-		/// Destructeur.
+		/// Destructeur/Finaliseur
 		/// </summary>
 		~MyRequest()
 		{
-			// GC Finalizer appelle Dispose(false)
+			// GC passe par ici et appelle Dispose(false)
 			Dispose(false);
 		}
 
